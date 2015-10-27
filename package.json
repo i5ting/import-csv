@@ -1,7 +1,7 @@
 {
   "name": "import-csv",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "simple way for import csv",
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",

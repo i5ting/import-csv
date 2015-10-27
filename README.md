@@ -12,14 +12,26 @@ Artwork by [i5ting](http://www.github.com/i5ting/).
 
     [sudo]npm install --save import-csv
 
-## Usage 
+## Usages
+
+默认使用gbk编码
 
 ```
 var import_csv = require('import-csv')
 
 import_csv('test.csv',function(err, data){
   console.log(data);
-},'gbk')
+})
+```
+
+指定字符编码机
+
+```
+var import_csv = require('import-csv')
+
+import_csv('test.csv',function(err, data){
+  console.log(data);
+}, 'gbk')
 ```
 
 
