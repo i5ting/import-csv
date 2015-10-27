@@ -1,0 +1,23 @@
+{
+  "name": "import-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/import-csv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/import-csv/issues"
+  },
+  "homepage": "https://github.com/i5ting/import-csv#readme",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "iconv-lite": "^0.4.13"
+  }
+}
