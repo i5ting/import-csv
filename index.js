@@ -15,5 +15,5 @@ module.exports = function (file, cb, encode) {
   });
 
   // update_pay_status_2(pay_num)
-  fs.createReadStream(file).pipe(iconv.decodeStream(_encode)).pipe(parser);
+  return fs.createReadStream(file).pipe(iconv.decodeStream(_encode)).pipe(parser);
 }

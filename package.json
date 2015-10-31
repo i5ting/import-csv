@@ -1,6 +1,6 @@
 {
   "name": "import-csv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple way for import csv",
   "main": "index.js",
   "scripts": {
